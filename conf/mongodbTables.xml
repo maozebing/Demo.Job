@@ -1,0 +1,47 @@
+﻿<?xml version="1.0"?>
+<Tables>
+	 <Table name="TBL_WASTE_CURRENT_EXIT">
+		<Column name="NET_ID" type="bigint"></Column>
+		<Column name="STATION_ID" type="bigint"></Column>
+		<Column name="NODE_ID" type="bigint"></Column>
+		<Column name="WASTE_NO" type="bigint"></Column>
+		<Column name="NODE_TYPE" type="bigint"></Column>
+		<Column name="CREATION_TIME" type="datetime"></Column>
+		<Column name="WORK_DATE" type="datetime"></Column>
+		<Column name="SHIFT_NO" type="bigint"></Column>
+		<Column name="OPERATOR_ID" type="bigint"></Column>
+		<Column name="VEHICLE_CLASS" type="bigint"></Column>
+		<Column name="VEHICLE_CASE" type="bigint"></Column>
+		<Column name="TOLL_RECEIVABLE" type="double"></Column>
+		<Column name="TOLL_ACTUAL" type="double"></Column>
+		<Column name="RECEIPT_NO" type="varchar"></Column>
+		<Column name="VEHICLE_SORT" type="bigint"></Column>
+		<Column name="AXIAL_NUM" type="bigint"></Column>
+		<Column name="TOLL_WEIGHT" type="bigint"></Column>
+		<Column name="VEHICLE_WEIGHT_LIMIT" type="bigint"></Column>
+		<Column name="VEHICLE_WEIGHT_ACTUAL" type="bigint"></Column>
+		<Column name="VEHICLE_OVERWEIGHT_RATE" type="double"></Column>
+		<Column name="LOGON_TIME" type="datetime"></Column>
+		<Column name="ENTRY_NET_ID" type="bigint"></Column>
+		<Column name="ENTRY_STATION_ID" type="bigint"></Column>
+		<Column name="ENTRY_NODE_ID" type="bigint"></Column>
+		<Column name="ENTRY_WASTE_NO" type="bigint"></Column>
+		<Column name="ENTRY_VEHICLE_CLASS" type="bigint"></Column>
+		<Column name="ENTRY_VEHICLE_CASE" type="bigint"></Column>
+		<Column name="ENTRY_VEHICLE_WEIGHT" type="bigint"></Column>
+		<Column name="ENTRY_OPERATOR_ID" type="bigint"></Column>
+		<Column name="ENTRY_OPERATOR_TIME" type="datetime"></Column>
+		<Column name="ENTRY_LICENSE_NO" type="varchar"></Column>
+		<Column name="LICENSE_NO" type="varchar"></Column>
+		<Column name="PASSCARD_ID" type="bigint"></Column>
+		<Column name="PASSCARD_TYPE" type="bigint"></Column>
+		<Column name="PAYMENT_CARD_ID" type="bigint"></Column>
+		<Column name="PAYMENT_CARD_TYPE" type="bigint"></Column>
+		<Column name="DISCOUNT_TYPE" type="bigint"></Column>
+		<Column name="FLAG_STATIONS" type="bigint"></Column>
+		<Column name="READER_ID" type="bigint"></Column>
+		<Column name="TRAFFIC" type="bigint"></Column>
+		<Column name="DESCRIPTION" type="varchar"></Column>
+		<Column name="TRANSTAG" type="bigint"></Column>
+     </Table>
+</Tables>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0"?>
+<DataSources>
+	<DataSource name="ORACLE">
+		<Table name="TBL_WASTE_CURRENT_EXIT" rows="ALL"></Table>
+	</DataSource>  
+</DataSources>

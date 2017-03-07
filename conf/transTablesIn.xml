@@ -1,0 +1,6 @@
+﻿<?xml version="1.0"?>
+<Tables>
+    <Table name="T_WASTE_CURRENT_EXIT" method="INSERT">
+		<Target name="mongodb" type="DB"></Target>
+    </Table>
+</Tables>

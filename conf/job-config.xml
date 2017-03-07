@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jobs>
+	<job>
+		<name>JsonFileToTable</name>
+		<group>group</group>
+		<activity>false</activity>
+		<scanPeriod>0 0/2 * * * ?</scanPeriod>
+		<className>com.demo.job.impl.JsonFileToTable</className>
+	</job>
+	<job>
+		<name>TableToJsonFile</name>
+		<group>group</group>
+		<activity>false</activity>
+		<scanPeriod>0 0/2 * * * ?</scanPeriod>
+		<className>com.demo.job.impl.TableToJsonFile</className>
+	</job>
+</jobs>
